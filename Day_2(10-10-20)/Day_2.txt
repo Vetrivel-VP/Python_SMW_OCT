@@ -1,0 +1,89 @@
+Datatype:
+    Data : It is an information. 
+
+Python :
+    Integer              : -Infinity to + Infinity ( Whole Number )
+    Decimal or Float     : Decimal Values  -Infinity to + Infinity     
+    Character            : Single Letter
+    String               : Collection of Letters. ( It can be Alpha Numberic )
+            Alpha Numberic : It can hold numbers, alphabets, special character.
+
+Python by default send and recives the data by string data.
+
+Memory Management.
+    Interpreter maintains a hashtable in the memory space. Heap Memory (Temporary Memory) active in your 
+    RAM
+    Hashtable has:
+        Memory Address  Variable_name   Value 
+
+Variable:
+    Variable name helps you to send and recieve the data from the memory space.
+
+Condition:
+    Dont use any keyword.
+    it can be alpha numberic.
+    Dont leave any unwanted space between the words.
+
+    Wright          Wrong
+    a_b             a-b, a b, a$
+    a2,a3           2a,3a
+    your_name       your name, print
+
+Types:
+    Static Variable
+    Dynamic Variable
+
+Static Variable:
+    Its constant, It cannot be updated during the runtime of the program.
+
+    Syntax:
+        variable name = value
+    Other Programming Languages:
+        Datatype variable_name = value
+
+        eg:
+            a = 5                           Memory Address          variable_name           Value
+                                            FF60                        a                     5  
+Operators:
+    Arithmatic Operators    : +,-,*,/
+    Bitwise Operators       : <<, >>, &&
+    Logical Operators.      : <,>,=, etc.    
+
+Adding Two Number using Static varaible.
+    a,b = 10,5
+    Add these two variables and to store it into c.
+    Print the result
+
+Formating the string:
+    Formatted String : f (Prefix)
+
+Dynamic Variable:
+    It is not a constant. It can be updated during the execution of the program.
+
+    Python by default reads an input in the string format.
+    Convert that string datatype either to an integer or Decimal.
+    This is said to be Typecasting.
+
+    int()   : Converts a string to int or decimal to int
+    float() : Converts a string to float or Int to float
+
+    How to read an input:
+        input(): Reads the input in the string format.
+        eval() : Identifies the input either a float() or int()
+
+
+    To comment your program : Ctrl + /
+
+    Output:
+        Enter the student name : Sample
+        Enter their marks Following:
+        Mark 1 : 50
+        Mark 2 : 50
+        Mark 3 : 50
+        Mark 4 : 50
+        Mark 5 : 50
+        Total  : 250
+        Average: 50%
+
+        a, b = eval(input('Enter the value of a,b:'))
+        print(f'{a} + {b} = {a+b}')

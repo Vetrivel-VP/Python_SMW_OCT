@@ -1,0 +1,20 @@
+Sqlite3:
+    Light weight database.
+    No need of server
+    It is stored as table format.
+
+    1. Create a db.
+    2. Create a table..
+    3. Use the queries to store or to update or to retrive or to delete.
+
+    How to access the db first.
+
+    connect(): Connect with your database
+    cursor(): Link the connection string with your program
+    execute():  help to run the SQL queries.
+    commit():   Finally save the details permanently to the databse.
+    close():    close the connection of our databse.
+
+    Read Deatils:
+        fetch() : To read only one data at a time.
+        fetchall() : to read all data in single execution.

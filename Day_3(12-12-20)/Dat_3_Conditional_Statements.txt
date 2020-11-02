@@ -1,0 +1,98 @@
+Conditional Statements
+    Check a condition, If the condition is satisfied then it returns true.
+    If the condition is not satisfied then it returns false.
+    
+Types:
+    if
+    if else
+    if elif...else
+    Nested If
+
+Logical Operators:
+    =           Assignment Operator
+    ==          Equvalent Operator ( Comparison Operator )
+    !=          Not Equal to
+    <           lesser than
+    >           greater than
+    <=          lesser than or Equal to
+    >=          greater than or Equal to
+    and         AND Gate
+    or          OR Gate
+    .           Dot Operator
+
+If Condition:
+    Helps you to Check a condition, if that condition is satisfied then it returns the true Statements.
+    If the condition is not satisfied then it returns nothing.
+
+    Sytax:
+        if (condition):
+            true_statement
+
+if else Statement
+    Helps you to Check a condition, if that condition is satisfied then it returns the true Statements.
+    If the condition is not satisfied then it returns the false statement.
+    Sytax:
+        if (condition):
+            true_statement
+        else:
+            false_statement
+
+Output:
+    Enter a number: 24
+    24 is an even number
+
+    Enter a number: 15
+    15 is an Not an even number
+
+    Read a number
+    Divide that number by 2
+    Check the reminder is equal to 0.
+    If equals to 0 then Print num is an even number
+    else Print num is not an even number
+
+
+    if elif.. else
+    Helps you to check more than one condition in a sequential order.
+    Syntax:
+        if condition 1:
+            true_statement 1
+        elif condition 2:
+            true_statement 2
+        .
+        .
+        .
+        .
+        else:
+            false_statement
+
+        Grade System:
+            35 - 50 : C Grade           if condition 1 and condition 2:
+            51 - 65 : B Grade               true_statement
+            66 - 75 : A Grade 
+            76 - 100 : A+
+            Other   : Fail
+
+AND Gate: and
+    Intersection concept in SETS
+    A           B           AB
+    1           0           0
+    0           1           0
+    1           1           1
+    0           0           0    
+
+Nested If :
+    Having a complete if else inside another if else condition.
+Syntax:
+    if condition 1:
+        if condition 2:
+            true_statement condition 2
+        else:
+            false_statement condition 2
+    else:
+        false_statement condition 1
+
+    Read the username and compare with 'Sample02'
+    Read the password and compare with 'Sample@123'
+
+    ENter the username : Sample                 uname
+    Enter the Password : smaple@12              pswd

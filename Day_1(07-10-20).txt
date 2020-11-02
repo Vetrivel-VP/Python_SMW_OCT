@@ -1,0 +1,59 @@
+Python		: python.org
+
+python version 3.9.0
+checking Python
+
+Opening Your Command Prompt:
+	Run Window : Win Key + R
+	Command Prompt : cmd
+	
+	Version : python --version
+	
+IDLE : Integrated Development Environment 
+Module : Create a bunch of code in  a single program
+File Extension : .py
+
+How To Execute :
+		Python Shell Script
+		Python Module
+		
+
+cd : Change Directory
+Come Out : cd ..
+
+Create A New Directory:
+	mkdir folder_name
+ Remove Directory
+	rmdir folder_name
+	
+List Out All the files:
+	dir
+	
+Execute Python File:
+	python filename
+	
+	
+	Step 1: Navigate to your Workspace
+	
+	Interpreter or Compillor:
+		Checks your source code line by line.
+		
+	print(): Function helps your to print an object ina your monitor
+	
+	Code Auto Formatter : Align Or Organize Your Python COde
+	
+	Python Pep's : Python Enhancement Proposals
+	
+	autopep8 Formatter : Style Guide Of Your Python Code
+	
+	Debuging Unit : Pylint
+	
+	
+	
+Dataypes
+Variables
+Contional statements
+	
+	
+	
+		

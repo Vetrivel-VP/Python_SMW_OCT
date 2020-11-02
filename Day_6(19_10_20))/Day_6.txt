@@ -1,0 +1,48 @@
+
+Tuple:
+    Ordered and Unchangable. () Brackets for tupel.
+
+Set
+    Unordered and Unindexed. {} curly brackets for the set.
+
+Dictionary:
+    Unordered, changeable, indexed. {} but they have the key and value pair.
+
+
+    dictionary_name = {
+        key : value,
+        .
+        .
+        .
+    }
+
+    get() : To get the value of the Dictionary.
+
+
+    Functions:
+        Helps you to execute certain block of code again during the exection of the program
+
+        Each python program has module name called __name__ = '__main__'
+
+        Types:
+            Pre-defined Functions
+            Paramaterized Functions
+            User Defined Function
+
+            Functions without parameters and return statement
+            Functions with parameters and without return statement
+            Functions with parameters and return statement.
+
+User-Defined:
+    synatx:
+        def function_name():
+            statements
+
+        Once the function is created we need to call that function by using the function name:
+        Function calling
+
+        Function variables are active only inside the function
+
+        Parameters:
+            Actual Parameters : Are the input values which you are trying to send
+            Formal Parameters : Are the parameters helps you to recieve the input values .

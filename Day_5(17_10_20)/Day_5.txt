@@ -1,0 +1,73 @@
+String:
+    String is also known as literals. Its always surrounded by the single or double quotes.
+
+'hello' is same as the "hello"
+
+Multiline string:
+    You can asssign a multi line string to a variable by using three quotes.
+
+Strings are Array:
+     Python does not ohave character datatype , a single character is simply a string with length of 1.
+
+    Array is always monitored by the index number.
+    An array index is always starts from 0 and so on.
+
+... ..-5-4-6-2-1  
+    HELLO WORLD
+    012345678910
+
+
+Slicing:
+    You can return a range of characters by using the slice syntax
+
+    [starting_index : ending_index]
+
+String Functions:
+1.Length : String Length:
+        Return the total count of used indexes.
+    syntax :
+        len(string_varialbe)
+
+
+2. strip():
+     The strip method removes any whitespaces from the beginning or the end.
+
+3. lower()  : Helps you to convert to lowercase
+4. Upper()  : Helps you to convert to uppercase
+
+5. Replace():
+    Helps you to replace with another string.
+
+    synatx:
+        string_variable.replace("old_string", "new_string")
+
+split():
+    Helps you to split the strings into substring. I it finds instances of the separtor.
+
+
+Python Collections:
+    LIST         : Ordered and changeable. Allows duplicate value.
+    Tuple        : Ordered and unchangeable. Alows duplicate values.
+    Set          : Unordered and unindexed. No duplicate values.
+    Dictionary   : Unordered, changeable and indexed. No duplicate members.
+
+
+
+Read 5 Students Details
+Finda total average, grade
+create single student list
+    [Name, Total, average, grade]
+Finaly you need create Students list
+    {
+        [Name, Total, average, grade],
+        [Name, Total, average, grade],
+        [Name, Total, average, grade],
+        [Name, Total, average, grade]
+    }
+
+    {
+        {Sample, 355,65, C},
+        {Sample, 355,65, C},
+        {Sample, 355,65, C},
+        {Sample, 355,65, C}
+    }

@@ -1,0 +1,25 @@
+Looping Statements:
+    Helps you to repeat a logic for sevaral times.
+
+Two Categories:
+    Entry Check Looping
+    Exit Check Looping
+
+Entry Check:
+    It executes the Statements  only if your condition is satisfied.
+
+Two Types:
+    for loop
+    while loop
+
+    Stages:
+        1 Initialization
+        2 Condition
+        3 Statements
+        4 Increment or Decrement
+    Increment:
+        Increase the variable count by 1
+    Decrement
+        Decrease the variable count by 1
+
+        If you failed to increment or Decrement then it become an infinite loop.

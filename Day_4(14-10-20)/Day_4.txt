@@ -1,0 +1,18 @@
+For Loop:
+    A for loop is used for iterating over a sequence ( that either can be a list, a tuple, a dictionary,
+    a set , or a string)
+
+Syntax:
+    for variable_name in range(start, end, step):
+        statements
+
+    range():
+        To loop through a set of code for a specified number of times, we can use the range() function.
+        Returns a series of numbers, by default is starts from 0, and incremeneted by 1 by default,
+        and it executes until it reaches the stop.
+
+        range(strat_vale, end_value, step_value)
+
+    
+    Nested Loop:
+        Loop Inside a loop

@@ -1,0 +1,9 @@
+Acces the python module there two different ways.
+    Relative Path
+    Absolute path.
+
+Relative Path:
+    import statement to import another python module.
+
+Absolute Path:
+    using from keyword to import the another python module.

@@ -1,0 +1,19 @@
+Working with Excel Workbook.
+    Loading existing working.
+    Doing some calculations
+    Creating the chart.
+
+    Using the excel doccument.
+        openpyxl : pypi.org
+        Install it : pip command (Package Manager)
+
+        Main : Python Interpreter.
+
+        Create separet virtual machine for each project.
+    
+    pipenv : Creating the virtual machine.
+    Activate : pipenv shell
+    Exit : exit.
+
+
+    pip install pipenv

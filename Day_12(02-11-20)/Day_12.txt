@@ -1,0 +1,35 @@
+Graphics using the Python
+    Tkinter : In built library
+
+    Lot of graphical objects like creating a circle, rectangle and all.
+
+To import:
+    import tkinter as object_name
+
+
+Load graphical window:
+    Main class : Tk(): To load your main window
+    mainloop() : Run your window
+
+
+    canvas : Layer to keep all your objects in a single place
+    pack() : Once its created, you need attach that object to your main window.
+
+    Label : To display your text
+
+    Entry(): Creating a textbox
+
+    Button : To preform some action we need a button. Create a button by using the class Button
+
+    padding x,y : To leave some space inside an object.
+
+    get() : Function helps to read the details from the textbox.
+            By default it read only the string datatype.
+
+    label.configure : To update the text dynamicaly
+
+    command : To trigger your function.
+
+    delete() : It is a function delete the characters inside the text box. It take two parameters
+        1. Starting Character 
+        2. Ending charchter

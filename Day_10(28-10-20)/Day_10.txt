@@ -1,0 +1,49 @@
+Exception Handling:
+    To handle the run time errors, we use the exception handling concept.
+
+try     : Is a block organise the error code.
+except  : Is a block handles that error code.
+finaly  : Is a block executed while the error is occured or the error is not occured.
+
+Exception is base class.
+    NumberFormatException
+    ArithmeticError
+    ArrayIndexOutOfBoundException
+    ClassNotFoundException
+    SQLError
+
+
+    Python File Handling:
+        open() : Function helps you to open a file.
+            Two parameter:
+                1st : Location of your file
+                2nd : Mode.
+        read:
+            fileobject
+            read()          : Character by character
+            readline()      : Line by line
+            readlines()     : Entire line and save them as a list
+
+
+            fileobject : Reads the line by line data as string
+            read() : reads a line by line and iterate character by character
+            readline() : reads the first line of the file and iterate it character 
+                by character
+            
+            readlines() : reads the entire file as a string.
+
+
+Save the students detail in the file.
+1. Sample 250 50% C 
+1. Sample 250 50% C 
+1. Sample 250 50% C 
+
+File marks.txt
+1 Sample0 50 50  50  50  50
+2 Sample1 50 50  50  50  50
+3 Sample2 50 50  50  50  50
+
+Use the split()
+convert it to the respective datatype
+calculate the calucation
+save back it to the new file.

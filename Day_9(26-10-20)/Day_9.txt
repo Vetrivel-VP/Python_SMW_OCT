@@ -1,0 +1,67 @@
+Polymorphism:
+    In  greek term the word 
+        Poly  : Many, 
+        morph : Forms or Shapes 
+                many forms or many shapes..
+            
+    A function has a capability to act in more than one form is said to be polymorphism.
+
+    Two Tpyes:
+            Compile Time
+            Run Time
+
+Compile Time:
+    Executed during the compilation time of the program.
+    It is achieved by the functin overloading.
+
+Condition for Overloading:
+    Function name should same.
+    Function parameter or the return statement should be different.
+
+Run time:
+    Executed during the Run time of the program.
+    It is achieved by the function overriding.
+
+Condition for Overriding.
+    Function name should be same.
+    Function parameter and the return statement also should be same.
+    Parent      child
+    First       Second              is-A : Relationship.
+    run()         run()
+
+
+Encapsulation:
+    Hiding an implementation details of your class properties..
+    By making our class variables as private member we can restrict the user access.
+
+    Private variable are accessible only inside the class not out side the class.
+    __ : prefix the variable with double underscore 
+
+
+Regular Expression: RegEx
+    A regEx, is a sequence of a characters that forms a search pattern.
+    RegEx can bbe used to check if a string contains the specified search pattern.
+
+Module:
+    Python has built-in package called re, which can be used to work with regualr Expressions.
+    import that Module just lik
+    import re
+
+
+    [] : A set of characters                            : "[a-m]"
+    \  : Signals a special Sequence                     : "\d"
+    .  : ANy character                                  : "he...o"
+    ^  : Start with                                     : "^hello"
+    $  : End with                                       : "world$"            
+    *  : Zero or More occureneces.                      : "aix*"
+    +  : One or More Occurences                         : "aix+"        
+    {} : Exactly the specified number of Occurences     : "a{2}"
+    |  : Either or                                      : "falls|stays"
+    () : Capture or a group
+
+
+    findall()   : Returns a list of containing all matches.
+    search()    : Searches the string for match, and return a match object , if there is more than one 
+                    occurence it returns the first occurence.   
+    split()     : Returns a list where the string has been split at each match.
+    sub()       : This replaces the matches with your text of your choices.
