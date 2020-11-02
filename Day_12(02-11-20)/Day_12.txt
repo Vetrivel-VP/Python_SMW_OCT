@@ -29,6 +29,7 @@ Load graphical window:
     label.configure : To update the text dynamicaly
 
     command : To trigger your function.
+    command : To trigger your function.
 
     delete() : It is a function delete the characters inside the text box. It take two parameters
         1. Starting Character 
